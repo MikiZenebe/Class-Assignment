@@ -1,0 +1,64 @@
+.body {
+  text-align: center;
+}
+
+.left {
+  margin: 6rem 0 0 0;
+  line-height: 3rem;
+}
+
+.left h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.left img {
+  margin: 2rem 0 0 0;
+  -webkit-box-shadow: inset;
+          box-shadow: inset;
+}
+
+input[type="text"],
+[type="email"],
+textarea {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: transparent;
+}
+
+input[type="text"]:focus,
+[type="email"]:focus,
+textarea:focus {
+  background: #e79495a1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: transparent;
+}
+
+input[type="submit"] {
+  background-color: #141414;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.right {
+  border-radius: 5px;
+  padding: 10px;
+}
+/*# sourceMappingURL=contact.css.map */

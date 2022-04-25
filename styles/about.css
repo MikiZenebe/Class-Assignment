@@ -1,0 +1,94 @@
+nav a {
+  font-size: 16px;
+}
+
+.point {
+  margin: 5rem 0 0 0;
+}
+
+.about {
+  text-align: center;
+  font-size: 22px;
+}
+
+.content {
+  text-align: center;
+  font-size: 19px;
+  margin: 1rem 0 0 0;
+  padding: 0 18rem;
+  line-height: 1.8rem;
+}
+
+.team {
+  margin: 4rem 0;
+}
+
+.team h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 2rem;
+}
+
+.cards {
+  margin: 0 4rem 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nati {
+  font-size: 29px;
+}
+
+.card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: 0 0 4rem 5rem;
+  text-align: center;
+  font-family: arial;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 4px 8px 0 #ffee00;
+          box-shadow: 0 4px 8px 0 #ffee00;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+  margin: 1rem 0 0 0;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: #000000;
+  background-color: #f5487c;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+/*# sourceMappingURL=about.css.map */

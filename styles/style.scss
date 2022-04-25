@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: -webkit-linear-gradient(
+    left,
+    #f9c37c 0%,
+    #f4a073 52%,
+    #e5929b 93%
+  );
+}
+
+//Scroll Bar
+html {
+  font-size: 100.5%;
+}
+
+/*Scroll Bar*/
+html ::-webkit-scrollbar {
+  width: 8px;
+}
+html ::-webkit-scrollbar-thumb {
+  background-color: #8b5b61;
+  border-radius: 10px;
+}
+
+html ::-webkit-scrollbar-track {
+  background-color: #5a6580;
+}
+
+$Mobiles: 480px;
+$Tablets: 768px;
+$Laptops: 1024px;
+$Desktops: 1200;
+
+.topnav {
+  overflow: hidden;
+  display: flex;
+  margin: 2rem 3rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  h2 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  a {
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 0 2rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: black;
+  }
+
+  @media screen and (max-width: $Laptops) and (min-width: $Mobiles) {
+    h2 {
+      margin: 0 0 0 6rem;
+      font-size: 20px;
+    }
+    nav {
+      display: flex;
+      flex-direction: row;
+      margin: 1rem 0 0 0;
+      font-size: 13px;
+    }
+  }
+}
+
+.desc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 8rem 12rem 0 10rem;
+  align-items: center;
+
+  p {
+    margin: 0 0 0 8rem;
+  }
+  img {
+    width: 100%;
+    height: 45vh;
+  }
+  button {
+    font-weight: bold;
+    margin: 0.5rem 0 0 8rem;
+    padding: 0.8rem 0.8rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+      background: #c06b1cbf;
+
+      transition: ease-in;
+      transition-duration: 0.2s;
+      color: white;
+    }
+  }
+
+  @media screen and (max-width: $Laptops) and (min-width: $Mobiles) {
+    p {
+      margin: 0 0 0 0;
+      text-align: start;
+      font-size: 15px;
+      padding: 0 0 0 0;
+    }
+
+    button {
+      margin: 0.5rem 0 2rem 1rem;
+      padding: 0.3rem 1rem;
+      font-size: 8px;
+    }
+    img {
+      width: 40vw;
+      height: 28vh;
+      margin: 0 0 0 0;
+    }
+  }
+}
+.best {
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.latest {
+  color: white;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Ai {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.point {
+  p {
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+}
